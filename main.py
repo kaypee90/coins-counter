@@ -1,4 +1,6 @@
-# COIN COUNTER PROJECT
+"""
+COIN COUNTER PROJECT
+""" 
 
 print("Program to count coins and calculate values")
 mixed_coins = input("Enter coin string: ")
