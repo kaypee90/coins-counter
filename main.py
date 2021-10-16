@@ -1,27 +1,33 @@
 """
 COIN COUNTER PROJECT
-""" 
+"""
 
 from collections import namedtuple
 
-print("Program to count coins and calculate values")
-mixed_coins = input("Enter coin string: ")
+def main():
+    """
+    Coins counter program
+    """
+    print("Program to count coins and calculate values")
+    mixed_coins = input("Enter coin string: ") # Example pppnnndddqqqh
 
-Coin = namedtuple('Coin',['Value','Quantity','SubTotal']) 
+    coin = namedtuple("Coin", ["Value", "Quantity", "SubTotal"])
 
-penny = Coin(0.01,  mixed_coins.count("p"), 0.01 * mixed_coins.count("p"))
-nickel = Coin(0.05,  mixed_coins.count("n"), 0.05 * mixed_coins.count("n"))
-dime = Coin(0.10,  mixed_coins.count("d"), 0.10 * mixed_coins.count("d"))
-quarter = Coin(0.25,  mixed_coins.count("q"), 0.25 * mixed_coins.count("q"))
-half_dollar = Coin(0.50,  mixed_coins.count("h"), 0.50 * mixed_coins.count("h"))
+    penny = coin(0.01, mixed_coins.count("p"), 0.01 * mixed_coins.count("p"))
+    nickel = coin(0.05, mixed_coins.count("n"), 0.05 * mixed_coins.count("n"))
+    dime = coin(0.10, mixed_coins.count("d"), 0.10 * mixed_coins.count("d"))
+    quarter = coin(0.25, mixed_coins.count("q"), 0.25 * mixed_coins.count("q"))
+    half_dollar = coin(0.50, mixed_coins.count("h"), 0.50 * mixed_coins.count("h"))
 
-total = penny.SubTotal \
-      + nickel.SubTotal \
-      + dime.SubTotal \
-      + quarter.SubTotal \
-      + half_dollar.SubTotal
+    total = (
+        penny.SubTotal
+        + nickel.SubTotal
+        + dime.SubTotal
+        + quarter.SubTotal
+        + half_dollar.SubTotal
+    )
 
-report = (
+    report = (
         f"\n=====================================================\n"
         f"                Coin Counter Report\n"
         f"=====================================================\n\n"
@@ -35,4 +41,7 @@ report = (
         f"                Total amount:     $ {total}                          \n"
     )
 
-print(report)
+    print(report)
+
+if __name__ == "__main__":
+    main()
