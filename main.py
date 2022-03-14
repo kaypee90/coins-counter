@@ -1,5 +1,6 @@
 """
 COIN COUNTER PROJECT
+Author: Kaypee
 """
 
 from collections import namedtuple
