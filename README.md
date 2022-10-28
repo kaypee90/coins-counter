@@ -1,4 +1,4 @@
-# Coins counter
+# Coins Counter
 
 ## Problem Statement: 
 Suppose you have a coin counting machine that provides input to your program.  
