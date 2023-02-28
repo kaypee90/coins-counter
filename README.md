@@ -1,6 +1,6 @@
 # Coins Counter
 
-## Problem Statement:
+## - Problem Statement:
 
 Suppose you have a coin counting machine that provides input to your program.  
 A bunch of mixed coins are placed into a hopper and are sorted one-by-one.  
