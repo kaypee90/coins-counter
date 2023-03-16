@@ -1,4 +1,4 @@
-# Coins Counter Program
+# Coins Counter
 
 ## Problem Statement:
 
