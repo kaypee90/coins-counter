@@ -13,3 +13,4 @@ Other coins: Dimes, Quarters, Half-dollars all work the same way: the first lett
 Your program will read the string using the `input()` function and calculate the number of each type of coin, the value of each type of coin and the total monetary value represented.
 
 
+kaypee90
