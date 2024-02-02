@@ -7,6 +7,7 @@ A bunch of mixed coins are placed into a hopper and are sorted one-by-one.
 The machine sends a string of characters to your program.
 
 When a Penny is sorted, the character 'p' is concatenated with the string.
+
 When a Nickel is sorted, 'n' is concatenated with the string.
 
 Other coins: Dimes, Quarters, Half-dollars all work the same way: the first letter of the name identifies the coin.
