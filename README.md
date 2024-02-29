@@ -14,5 +14,3 @@ When a Nickel is sorted, 'n' is concatenated with the string.
 Other coins: Dimes, Quarters, Half-dollars all work the same way: the first letter of the name identifies the coin.
 
 Your program will read the string using the `input()` function and calculate the number of each type of coin, the value of each type of coin and the total monetary value represented.
-
---K.P.---
